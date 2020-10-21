@@ -14,7 +14,6 @@
 .container {
     width: 1400px;
     margin: 0px auto;
-    padding-top: 50px;
     background-color: rgb(231, 231, 231);
 }
 
@@ -48,8 +47,16 @@ h1 {
     font-size: 28px;
 }
 
-.pad-top100px {
+.pad-top100 {
     padding-top: 100px;
+}
+
+.pad-top30 {
+    padding-top: 30px;
+}
+
+.pad-bot30 {
+    padding-bottom: 30px;
 }
 
 /* info list UL */
