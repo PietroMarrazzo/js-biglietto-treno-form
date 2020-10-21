@@ -34,9 +34,9 @@ btnGenera.addEventListener('click', function() {
     var nCarrozza = Math.floor((Math.random() * 10) + 1);
 
     // display biglietto e info 
-    if (nome == '') {
+    if (nome == '' || percorrenza <= 0) {
         biglietto.className = 'hidden';
-        alert('Compila il modulo del tuo nome per validare il biglietto');
+        alert('Compila i moduli correttamente per validare il biglietto');
         
     } else
     biglietto.className = 'display';
