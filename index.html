@@ -15,18 +15,65 @@
         <ul>
             <li>
                 <label for="">Nome e Cognome</label>
-                <input type="text" id="username">
+                <input type="text" id="username" placeholder="Inserisci generali">
             </li>
             <li>
                 <label for="">Km da percorrere</label>
-                <input type="text" id="percorrenza">
+                <input type="text" id="percorrenza" placeholder="Inserisci i kilometri">
             </li>
-            <li>
-                <label for="">Fascia età</label>
-                <input type="text" id="username">
+            <li>          
+                <span>
+                    Fascia d'età
+                </span>
+                <select name="prova" id="fascia-eta">
+                    <option value="">Minorenne</option>
+                    <option value="">Maggiorenne</option>
+                    <option value="">Over 65</option>
+                </select>
+                
             </li>
         </ul>
+        <div>
+            <button id="genera" type="button">
+                Genera
+            </button>
+            <button id="annulla" type="button">
+                Annulla
+            </button>
+        </div>
     </div>
+
+    <!-- biglietto hidden/show -->
+    <div id="biglietto" class="hidden">
+        <h1>
+            Il tuo biglietto
+        </h1>
+        <div>
+            <h2>
+                Dettaglio passeggero
+            </h2>
+            <table>
+                <tr>
+                    <th>
+                        Nome Passeggero
+                    </th>
+                    <th id="offerta">
+                        Offerta
+                    </th>
+                    <th id="carrozza">
+                        Carrozza
+                    </th>
+                    <th id="codice">
+                        Codice Treno
+                    </th>
+                    <th id="costo">
+                        Costo biglietto
+                    </th>
+                </tr>
+            </table>
+        </div>
+    </div>
+
     <script src="./js/main.js"></script>
 </body>
 </html>
