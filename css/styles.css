@@ -4,10 +4,11 @@
     box-sizing: border-box;
     font-family: sans-serif;
 }
+/* background */
 
 /* container */
 .container {
-    width: 1200px;
+    width: 1400px;
     margin: 0px auto;
     padding-top: 50px;
     background-color: #840b22de;
@@ -18,6 +19,14 @@
     text-align: center;
 }
 
+.flex {
+    display: flex;
+}
+
+.flex-center {
+    justify-content: center;
+}
+
 .display {
     opacity: 1;
 } 
@@ -26,5 +35,19 @@
     opacity: 0;
 }
 
+h1 {
+    color:white;
+    text-transform: uppercase;
+    font-size: 28px;
+}
 
 /* info list UL */
+#generatore #info-list {
+    list-style: none;
+}
+
+#generatore #info-list li {
+    
+}
+
+#generatore #info-list
