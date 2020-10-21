@@ -39,7 +39,7 @@ btnGenera.addEventListener('click', function() {
         alert('Compila i moduli correttamente per validare il biglietto');
         
     } else
-    biglietto.className = 'display';
+    biglietto.className = 'display container';
     document.getElementById('nome').innerHTML = nome;
     document.getElementById('offerta').innerHTML = offerta;
     document.getElementById('carrozza').innerHTML = nCarrozza;

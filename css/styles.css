@@ -5,6 +5,19 @@
     font-family: sans-serif;
 }
 
+/* container */
+.container {
+    width: 1200px;
+    margin: 0px auto;
+    padding-top: 50px;
+    background-color: #840b22de;
+}
+
+/* utilities */
+.txt-center {
+    text-align: center;
+}
+
 .display {
     opacity: 1;
 } 
@@ -12,3 +25,6 @@
 .hidden {
     opacity: 0;
 }
+
+
+/* info list UL */
